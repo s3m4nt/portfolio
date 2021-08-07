@@ -9,4 +9,22 @@
     color: white;
 }
 
-.about-accent {}
+.accent-ylw {
+    color: rgb(255, 198, 41);
+}
+
+.accent-gry {
+    color: rgb(179, 183, 194);
+}
+
+.accent-ltGry {
+    color: rgb(226, 232, 242);
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.reg-weight {
+    font-weight: 100;
+}
