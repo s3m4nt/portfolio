@@ -38,3 +38,15 @@
     margin: 15px 15px 0 0;
     /* border: 1px white solid; */
 }
+
+.about-wrap {
+    /* width: 888px; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 1px dotted green;
+
+}
+
+.about-cell {
+    border: 1px dotted red;
+}
