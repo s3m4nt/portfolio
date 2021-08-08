@@ -241,11 +241,11 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #000;
   text-decoration: underline;
 }
 a:hover {
-  color: #c34e2e;
+  color: rgb(255, 198, 41);
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11376,7 +11376,7 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #000;
     /* color: gray; */
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
