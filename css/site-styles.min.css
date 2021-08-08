@@ -55,3 +55,14 @@
 .about-cell {
     border: 1px dotted red;
 }
+
+@media only screen and (max-width: 600px) {
+    .mobile-block {
+        display: inline-block;
+    }
+
+    .mobile-icon {
+        /* display: inline-block; */
+        display: none;
+    }
+  }
