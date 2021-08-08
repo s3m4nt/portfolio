@@ -11340,10 +11340,12 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  /* color: #f4623a; */
+  color: gray;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  /* color: #f4623a !important; */
+  color: gray !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11375,12 +11377,14 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
     color: #f4623a;
+    /* color: gray; */
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    /* color: #f4623a; */
+    color: gray;
   }
 }
 
