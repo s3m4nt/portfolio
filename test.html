@@ -7,71 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .some-page-wrapper {
-            margin: 15px;
-            background-color: red;
+        .wrapper {
+            display: grid;
+            grid-template-columns: 50% 200px 50%;
+            border: 1px dotted green;
         }
 
-        .row {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-        .column {
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            flex: 1;
-        }
-
-        .blue-column {
-            background-color: blue;
-            height: 100px;
+        .cell {
+            border: 1px dotted green;
         }
     </style>
 </head>
 
 <body>
-    <div style="border: 1px solid black;">
-        <div class='row'>
-            <div class='column'>
-                <div class='blue-column'>
-                    Hello! My name is Brian and I enjoy creating things that not only
-                    function well, but look good too. My interest in web development
-                    started back in ??? when, while bored, I stumbled onto the
-                    Developer>View Source tab and thought to myself “wow!
-                    that’s how it’s done!” I was hooked, and that is when I began
-                    my journey into web development.
-
-                    Fast-forward to today, where my true passion for web development,
-                    along with my design background has Hello! My name is Brian and I enjoy creating things that not
-                    only
-                    function well, but look good too. My interest in web development
-                    started back in ??? when, while bored, I stumbled onto the
-                    Developer>View Source tab and thought to myself “wow!
-                    that’s how it’s done!” I was hooked, and that is when I began
-                    my journey into web development.
-                    <br><br>
-                    Fast-forward to today, where my true passion for web development,
-                    along with my design background has
-                </div>
-            </div>
-            <div class='column'>
-                <div class='blue-column'>
-                    Hello! My name is Brian and I enjoy creating things that not only
-                    function well, but look good too. My interest in web development
-                    started back in ??? when, while bored, I stumbled onto the
-                    Developer>View Source tab and thought to myself “wow!
-                    that’s how it’s done!” I was hooked, and that is when I began
-                    my journey into web development.
-                    <br><br>
-                    Fast-forward to today, where my true passion for web development,
-                    along with my design background has
-                </div>
-            </div>
-        </div>
+    <div class="wrapper">
+        <div class="cell">I have now created a grid with three 200-pixel-wide column tracks. The child items will be
+            laid out on this
+            grid one in each grid cell.</div>
+        <div class="cell">I have now created a grid with three 200-pixel-wide column tracks. The child items will be
+            laid out on this
+            grid one in each grid cell.</div>
+        <div class="cell">I have now created a grid with three 200-pixel-wide column tracks. The child items will be
+            laid out on this
+            grid one in each grid cell.</div>
     </div>
 </body>
 
