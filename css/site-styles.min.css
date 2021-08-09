@@ -24,7 +24,6 @@
     filter: drop-shadow(2px 2px 3px rgb(65, 65, 65));
 }
 
-
 .section-title {
     font-weight: bold;
 }
@@ -40,7 +39,6 @@
 .mast-icons {
     width: 45px;
     margin: 15px 15px 0 0;
-    /* border: 1px white solid; */
 }
 
 .mast-icons:hover {
@@ -52,8 +50,6 @@
     /* width: 888px; */
     display: grid;
     grid-template-columns: 600px 400px ;
-    /* border: 1px dotted green; */
-
 }
 
 .about-cell {
@@ -66,7 +62,6 @@
     }
 
     .mobile-icon {
-        /* display: inline-block; */
         display: none;
     }
   }
