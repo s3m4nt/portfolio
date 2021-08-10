@@ -1,3 +1,15 @@
+// Montserrat Black
+// Montserrat Regular
+// #000000 black rgb(0, 0, 0)
+// #B3B7C2 drk blue gray rgb(179, 183, 194)
+// #E2E8F2 lt blue gray rgb(226, 232, 242)
+// #FFC629 yellow rgb(255, 198, 41)
+
+$site-yellow: rgb(98%, 80%, 3%);
+$site-black: rgb(0, 0, 0);
+$site-lt_bl_gr: rgb(226, 232, 242);
+$site-dk_bl_gr: rgb(179, 183, 194);
+
 .about-small {
     font-size: 1rem;
     color: white;
@@ -132,5 +144,8 @@
     }
   }
   
+  .prim-bg {
+  background-color: $site-yellow;
+  }
   /*# sourceMappingURL=site-styles.min.css.map */
   
