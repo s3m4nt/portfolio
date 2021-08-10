@@ -1,10 +1,4 @@
 # portfolio
 Brian Young Software Engineer Portfolio
 
-<a href="http://brianyoungdev.io" target="_blank">View portfolio</a>
-<br>
-[View Portfolio](http://brianyoungdev.io){:target="_blank"}
-<br>
-[View Portfolio]("http://brianyoungdev.io" target="_blank)
-<br>
-Live Demo: <a href="https://example.com" target="_blank">demo</a>
+[temporarily disable liquid tag processing](https://shopify.github.io/liquid/tags/raw/){:title="Click to Visit the Raw page at Shopify"}{:target="_blank"}
