@@ -53,6 +53,12 @@ $site-dk_bl_gr: rgb(179, 183, 194);
     transform: scale(1.1);
 }
 
+.mast-text {
+  width: 555px;
+  color: $site-lt_bl_gr;
+  width: 555px;
+}
+
 .about-wrap {
     /* width: 888px; */
     display: grid;
@@ -134,10 +140,13 @@ $site-dk_bl_gr: rgb(179, 183, 194);
     .mobile-icon {
         display: none;
     }
+
+    .mast-text {
+      width: 333px;
+      
+    }
+    
   }
-  .about-small {
-    font-size: 1rem;
-    color: white;
-  }
+
 
 /*# sourceMappingURL=site-styles.min.css.map */
