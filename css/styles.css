@@ -11297,6 +11297,10 @@ body {
   padding: 8rem 0;
 }
 
+.page-section2 {
+  padding: 0;
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
 }
